@@ -1,0 +1,76 @@
+.section__quienes-somos{
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 100%;
+    margin: 20px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.quienes-somos__card{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #1d8ebf;
+    border-radius: 30px;
+    color: #fff;
+    opacity: 0.8;
+}
+.quienes-somos__card h2{
+    font-size: 2rem;
+    width: 100%;
+    font-family: ShantellSans;
+}
+.quienes-somos__card:nth-child(2){
+    background-color:#F23095;
+}
+.quienes-somos__card:nth-child(3){
+    transform: translateX(50%);
+    width: 100%;
+    margin-top: 10px;
+}
+.cohete{
+    position: absolute;
+    z-index: -1;
+    transform: rotate(290deg) translate(100px);
+}
+.section__content-eventos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+.eventos__descripcion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    background-color: #F23095;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    color: #fff;
+}
+.eventos__descripcion h2{
+    font-size: 2rem;
+    width: 100%;
+    font-family: ShantellSans;
+}
+.eventos__descripcion p{
+    font-family: NotoSans;
+    font-size: 1rem;
+}
+.eventos-publicidad{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    gap: 20px;
+}
+.publicidad-spot, .publicidad-stand, .publicidad-radial{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}

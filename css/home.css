@@ -1,0 +1,144 @@
+.section__content-apraxia{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 6em;
+}
+.content-apraxia__parrafo, .content-apraxia__doctor{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    transition: .3s ease all;
+}
+.parrafo__titulo{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-family: ShantellSans;
+}
+.parrafo__p{
+    font-size: 1.5rem;
+    width: 100%;
+    font-family: NotoSans;
+}
+.parrafo__boton{
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #1d8ebf;
+    font-family: ShantellSans;
+}
+.parrafo__boton:hover{
+    background-color: #f23095;
+    color: #fff;   
+}
+.section__content-cardapraxia{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 20px;
+    overflow-y: hidden;
+}
+.content-cardapraxia__card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #F23095;
+    padding: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: #fff;
+    transition: .3s ease all;
+}
+.card__container{
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     border-radius: 30px;
+}
+.card__container h2{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: ShantellSans;
+}
+.card__container ul,p{
+     padding: 20px;
+     font-size: 1rem;
+     font-family: NotoSans;
+}
+.content-cardapraxia__card:nth-child(1), .content-cardapraxia__card:nth-child(3){
+     background-color: #1d8ebf;
+}
+.section__content-ideatoria{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+}
+.content-ideatoria__imagen{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.imagen__ideatoria{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.content-ideatoria__content-lista{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+}
+.content-lista__parrafo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f23095;
+    padding: 2rem;
+    color: #fff;
+    margin-bottom: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.content-lista__parrafo h2{
+   font-size: 2rem;
+   margin-bottom: 10px;
+   font-family: ShantellSans;
+}
+.content-lista__parrafo p{
+    margin-bottom: 10px;
+    font-family: NotoSans;
+ }
+.content-lista__parrafo:first-child, 
+.content-lista__parrafo:last-child{
+    background-color: #1d8ebf;
+}
+.referencia{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   padding: 20px;
+   font-family: ShantellSans;
+}
+.referencia p,a{
+    font-family: ShantellSans;
+ }

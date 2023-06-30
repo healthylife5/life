@@ -1,0 +1,76 @@
+.section__content-juego{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+}
+.content-juego__descarga{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 4rem;
+}
+.content-juego__descarga h2{
+    font-size: 4rem;
+    font-family: ShantellSans;
+}
+.content-juego__descarga p{
+    width: 100%;
+    font-size: 1rem;
+    font-family: NotoSans;
+}
+.content-juego__descarga a{
+     display: inline-block;
+     padding: 20px;
+     background-color:#1d8ebf;
+     border-radius: 30px;
+     font-size: 1.8rem;
+     text-decoration: none;
+     color: #fff;
+     font-family: ShantellSans;
+}
+.descarga__container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+.container__directa, .container__imageninicial{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 20px;
+}
+.swiper {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+.container__content-descripcion{
+    padding: 20px;
+    text-align: center;
+    color: #000;
+    margin-top: 10px;
+    font-family: ShantellSans;
+}
+.container__content-descripcion h2{
+    font-family: ShantellSans;
+}
+.container__content-descripcion p{
+    font-family: NotoSans;
+    font-size: 1rem;
+}

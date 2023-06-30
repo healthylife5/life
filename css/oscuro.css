@@ -1,0 +1,84 @@
+body.dark{
+    background-color: #000;
+    color: #fff;
+}
+body.dark nav::-webkit-scrollbar{
+    background: #000;
+}
+body.dark nav{
+	background:#000;
+	color:#fff;
+    transition: .3s ease all;
+}
+body.dark .parrafo__boton{
+    background-color: #fff;
+    color: #000;
+    transition: .3s ease all;
+}
+body.dark .parrafo__boton:hover{
+    background-color: #000;
+    color: #fff;
+    transition: .3s ease all;
+}
+body.dark .content-cardapraxia__card{
+    background-color: #000;
+    color: #fff;
+    transition: .3s ease all;
+}
+body.dark .content-lista__parrafo{
+    background-color: #000;
+    color: #fff;
+    transition: .3s ease all;
+}
+body.dark .quienes-somos__card{
+    background-color: #000;
+    color: #fff;
+    transition: .3s ease all;
+}
+body.dark .eventos__descripcion{
+    background-color: #000000;
+    color: #fff;
+}
+.content-apraxia__parrafo.dark{
+    border-radius: 30px;
+    transition: .3s ease all;
+}
+.descarga__directa.dark{
+    border-radius: 30px;
+    transition: .3s ease all;
+}
+body.dark .content-juego__descarga a{
+    background-color: #fff;
+    color: #000;
+    transition: .3s ease all;
+}
+body.dark .content-juego__descarga a:hover{
+    background-color: #000;
+    color: #fff;
+    transition: .3s ease all;
+}
+body.dark .container__content-descripcion{
+    color: #fff;
+}
+body.dark .section__content-formulario{
+    background-color: #fff;
+    color: #000;
+    opacity: 0.8;
+}
+body.dark input, body.dark textarea{
+    border: 1px solid #000;
+}
+body.dark form h2{
+    color: #000;
+}
+body.dark .boton-enviar{
+    background-color: #000;
+    color: #fff;
+}
+body.dark footer{
+    background-color: #fff;
+    color: #000;
+}
+body.dark .container-facebook, body.dark .container-google, body.dark .container-instagram{
+    background-color: #000;
+}

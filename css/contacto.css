@@ -1,0 +1,64 @@
+.section__content-formulario{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+ }
+ .content-formulario__animacion, .content-formulario__contacto{
+     width: 50%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding: 20px;
+ }
+ form{
+     width: 80%;
+     padding: 20px;
+     border-radius: 30px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     -webkit-box-shadow: -1px 2px 17px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 17px -3px rgba(0,0,0,0.75);
+box-shadow: -1px 2px 17px -3px rgba(0,0,0,0.75);
+ }
+ form h2{
+     font-size: 3rem;
+     font-family: ShantellSans;
+     color: #1d8ebf;
+     padding: 10px;
+ }
+ form input, textarea{
+     width: 80%;
+     padding: 15px;
+     border-radius: 30px;
+     border: 1px solid #F23095;
+     font-size: 1.8rem;
+     font-family: ShantellSans;
+     margin: 10px;
+ }
+ .terminos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+ }
+ .terminos input{
+    width: 20px;
+    height: 20px;
+ }
+ .terminos label{
+    font-size: 20px;
+    font-family: ShantellSans;
+ }
+ .boton-enviar{
+     background-color: #1d8ebf;
+     border-radius: 30px;
+     color: #fff;
+     border: none;
+     cursor: pointer;
+ }
